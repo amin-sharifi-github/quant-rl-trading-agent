@@ -1,6 +1,6 @@
 # QuantRL: Deep Reinforcement Learning System for Algorithmic Trading
 
-QuantRL is a modular, research-grade reinforcement learning (RL) framework designed to model, train, and evaluate AI-based trading agents in a realistic financial environment. It is built around the Proximal Policy Optimization (PPO) algorithm using a custom self-attention neural network architecture and incorporates feature-rich market simulation, advanced backtesting, and performance evaluation.
+QuantRL is an end-to-end reinforcement learning platform for algorithmic trading, developed independently to demonstrate technical depth in quantitative research, machine learning, and AI-powered market modeling. It integrates deep RL with custom-built Gym environments, production-level feature pipelines, and modular evaluation tools. Designed for experimentation and real-world strategy development, it supports PPO training, ensemble models, walk-forward backtesting, Monte Carlo analysis, and performance visualization across hundreds of market features.
 
 ---
 
