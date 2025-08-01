@@ -1,6 +1,6 @@
 # QuantRL: Deep Reinforcement Learning System for Algorithmic Trading
 
-QuantRL is an end-to-end reinforcement learning platform for algorithmic trading, developed independently to demonstrate technical depth in quantitative research, machine learning, and AI-powered market modeling. It integrates deep RL with custom-built Gym environments, production-level feature pipelines, and modular evaluation tools. Designed for experimentation and real-world strategy development, it supports PPO training, ensemble models, walk-forward backtesting, Monte Carlo analysis, and performance visualization across hundreds of market features.
+QuantRL is a modular, research-grade reinforcement learning (RL) framework designed to model, train, and evaluate AI-based trading agents in a realistic financial environment. It is built around the Proximal Policy Optimization (PPO) algorithm using a custom self-attention neural network architecture and incorporates feature-rich market simulation, advanced backtesting, and performance evaluation.
 
 ---
 
@@ -49,14 +49,35 @@ QuantRL is an end-to-end reinforcement learning platform for algorithmic trading
 
 This framework is in active development and not fully optimized. The backtest below was performed using an early version of the agent trained on limited data and compute resources.
 
-- Cumulative Return: ~3.2%
-- Sharpe Ratio: ~0.89
+- Cumulative Return: ~5.4%
+- Sharpe Ratio: ~0.67
+- Sortino Ratio: ~0.74
+- Calmar Ratio: ~1.64
 - Max Drawdown: ~7.1%
-- Win Rate: ~46%
+- Win Rate: ~54%
 - Trades Executed: ~280
 - Average Position Duration: 30–45 minutes
 
 Further improvements are expected with larger datasets, longer training schedules, and hyperparameter tuning.
+
+---
+
+### Visual Results
+
+**Rolling Performance Metrics**  
+Tracks rolling return, Sharpe ratio, and max drawdown over time.
+
+![Rolling Performance](plots/rolling_performance.png)
+
+**Comprehensive Backtest Analysis**  
+Benchmarks the RL agent against SMA crossover and Buy & Hold strategies.
+
+![Backtest Results](plots/backtest_results.png)
+
+**Top 20 Feature Importance**  
+Ranked by absolute correlation with future returns.
+
+![Feature Importance](plots/feature_importance.png)
 
 ---
 
