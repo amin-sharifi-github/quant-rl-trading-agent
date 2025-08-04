@@ -4,6 +4,10 @@ QuantRL is a modular, research-grade reinforcement learning (RL) framework desig
 
 ---
 
+## System Architecture Overview
+The diagram illustrates QuantRL’s core training loop: historical market data is processed by the `DataHandler`, passed through a `VecNormalize` wrapper, and fed into a custom `TradingEnvironment` built on OpenAI Gym. The PPO-based `RL Agent`, enhanced with a self-attention policy network, interacts with the environment and updates its strategy through repeated episodes. This modular pipeline enables flexible experimentation and rigorous evaluation.
+![Rolling Performance](plots/system_architecture_flowchart.png)
+
 ## Key Features
 
 ### End-to-End Research Pipeline
