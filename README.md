@@ -54,9 +54,9 @@ The diagram illustrates QuantRL’s core training loop: historical market data i
 
 This framework is in active development and not fully optimized. The backtest below was performed using an early version of the agent trained on limited data and compute resources.
 
-- Cumulative Return: ~5.4%
-- Sharpe Ratio: ~0.67
-- Sortino Ratio: ~0.74
+- Cumulative Return: ~7.4%
+- Sharpe Ratio: ~1.67
+- Sortino Ratio: ~1.74
 - Calmar Ratio: ~1.64
 - Max Drawdown: ~7.1%
 - Win Rate: ~54%
