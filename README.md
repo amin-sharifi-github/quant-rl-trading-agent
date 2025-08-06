@@ -139,8 +139,8 @@ This project was developed independently to demonstrate production-level enginee
 ## Author
 
 Amin Sharifi  
-Quantitative Researcher | AI/ML Developer | PhD Composer
-Email: info@masharifi.com
+Quantitative Researcher | AI/ML Developer | PhD Composer  
+Email: info@masharifi.com  
 Website: https://www.masharifi.com  
-Linkedin: https://www.linkedin.com/in/amin-sharifi-062a477b
-GitHub: https://github.com/amin-sharifi-github/quant-rl-trading-agent
+LinkedIn: https://www.linkedin.com/in/amin-sharifi-062a477b  
+GitHub: https://github.com/amin-sharifi-github
